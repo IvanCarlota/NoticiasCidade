@@ -17,7 +17,7 @@ body{
   height: 150px;
   background: url(../imagens/detalhe-topo.png) no-repeat right top; 
   padding: 25px;
-  border: red solid 1px;
+  
 }
 
 .logo{
@@ -53,11 +53,20 @@ ul{
   color: #fff;
   background: url(../imagens/divisor.png) no-repeat left center;
 }
-
 #topo ul .primeiro a{
   background: none;
 }
-
 #topo ul a:hover{
   color: #69001d;
+}
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos{
+  color: #fff;
+  background: #de003e;
+  cursor: text;
 }
