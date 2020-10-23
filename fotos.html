@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>Notícias cidade - Seu site de notícias</title>
 </head>
-<body class="fotos">
+
+<body id="uma-coluna" class="brasil">
+  <!-- Início do container -->
   <div id="container">
+    <!-- Início do Topo -->
     <div id=topo>
       <h1 class="logo">Notícias Cidade</h1>
 
@@ -21,10 +25,84 @@
         <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
         <li><a id="fotos" href="fotos.html">Fotos</a></li>
       </ul>
+    </div>
+    <!-- Fim do Topo -->
+    <!-- Início do Conteudo -->
+    <div id="conteudo">
+      <div id="primario">
+        <!-- Início destaque -->
+        <div class="caixa destaque">
+          <h2>Destaque</h2>
+          <div class="caixa-conteudo">
+            <h3>Nova legislação</h3>
+            <img src="./imagens/taxi.jpg" alt="" width="100%" class="imagem-principal">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, 
+              minima necessitatibus distinctio facere.
+            </p>
+            <a href="">Leia mais!</a>
+          </div>
+        </div>
+        <!-- Fim destaque -->
 
+        <!-- Início Mundo -->
+        <div class="caixa">
+          <h2>Mundo</h2>
+          <div class="caixa-conteudo">
+            <ul id="lista-noticias">
+              <li>
+                <a href="">
+                  <img src="./imagens/tecnologia.jpg" alt="" width="80">
+                  <h3>Novas Tecnologias</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="./imagens/big.jpg" alt="" width="80">
+                  <h3>Big data</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="./imagens/bitcoin.jpg" alt="" width="80">
+                  <h3>Bitcoin</h3>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./imagens/pix.jpg" alt="" width="80">
+                  <h3>Pix</h3>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Fim mundo -->
+
+      </div>
+      
+
+      
+
+
+    </div>
+    <!-- Fim do Conteudo -->
+
+  </div>
+  <!-- Fim do container -->
+
+  <div id="container-rodape" style="clear: both">
+    <div id="rodape">
+      &copy; Copyright 2000-2020 Notícias cidade
     </div>
   </div>
 
-
 </body>
+
 </html>
