@@ -16,22 +16,22 @@ CSS3
  ##  It's a personal Blog :D fictitious
 
 **home page**
-![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/images/public/readme/1.png)
+![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/imagens/public/readme/1.png)
 
 **Brazil**
-![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/images/public/readme/2.png)
+![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/imagens/public/readme/2.png)
 
 **International**
-![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/images/public/readme/3.png)
+![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/imagens/public/readme/3.png)
 
 **Economy**
-![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/images/public/readme/4.png)
+![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/imagens/public/readme/4.png)
 
 **Health**
-![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/images/public/readme/5.png)
+![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/imagens/public/readme/5.png)
 
 **Science**
-![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/images/public/readme/6.png)
+![Initial page](https://github.com/IvanCarlota/NoticiasCidade/blob/master/imagens/public/readme/6.png)
 
 ## Links
   
