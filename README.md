@@ -35,7 +35,7 @@ CSS3
 
 ## Links
   
-  - Repository: https://github.com/IvanCarlota/Tec-Blog
+  - Repository: https://github.com/IvanCarlota/NoticiasCidade
     - In case of sensitive bugs like security vulnerabilities, please contact
       ivan.junior.carlota@gmail.com directly instead of using issue tracker. We value your effort
       to improve the security and privacy of this project!
