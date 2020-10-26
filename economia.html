@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>Notícias cidade - Seu site de notícias</title>
 </head>
-<body class="economia">
+
+<body id="duas-colunas" class="economia">
+  <!-- Início do container -->
   <div id="container">
+    <!-- Início do Topo -->
     <div id=topo>
       <h1 class="logo">Notícias Cidade</h1>
 
@@ -21,10 +25,118 @@
         <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
         <li><a id="fotos" href="fotos.html">Fotos</a></li>
       </ul>
+    </div>
+    <!-- Fim do Topo -->
+    <!-- Início do Conteudo -->
+    <div id="conteudo">
+      <div id="primario">
+        <!-- Início destaque -->
+        <div class="caixa destaque">
+          <h2>Destaque</h2>
+          <div class="caixa-conteudo">
+            <img src="./imagens/economia1.JPG" alt="" width="100%" class="imagem-principal">
+            <p>
+              Economia brasileira reage e deve crescer até 9% no terceiro trimestre
+            </p>
+            <a href="">Leia mais!</a>
+          </div>
+        </div>
+        <!-- Fim destaque -->
 
+        <!-- Início Mundo -->
+        <div class="caixa">
+          <h2>Mundo</h2>
+          <div class="caixa-conteudo">
+            <ul id="lista-noticias">
+              <li>
+                <a href="">
+                  <img src="./imagens/bolsonaro.jpg" alt="" width="80">
+                  <h3>Arroz</h3>
+                  <p>Questionado sobre preço do arroz, Bolsonaro lança: 'Vai comprar lá na Venezuela'.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="./imagens/desemprego.jpg" alt="" width="80">
+                  <h3>Desemprego</h3>
+                  <p>Aumento do desemprego e disparada do gasto público atrasam benefícios da reforma previdenciária.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="./imagens/turismo.jpg" alt="" width="80">
+                  <h3>Turismo</h3>
+                  <p>Turismo teve queda superior a 33% no faturamento entre janeiro e agosto.</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./imagens/catalunha.jpg" alt="" width="80">
+                  <h3>Governo</h3>
+                  <p>Governo Federal promete reequilíbrio das contas públicas em 2021.</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Fim mundo -->
+
+      </div>
+      
+
+      
+      <!-- Início lateral -->
+      <div id="lateral">
+        <div class="caixa">
+          <h2>Entrevistas</h2>
+          <div class="caixa-conteudo">
+            <ul>
+              <li><a href="">José Almeida</a></li>
+              <li><a href="">Felipe Silva</a></li>
+              <li><a href="">Renato Rodrigues</a></li>
+              <li><a href="">Abelardo Silveira</a></li>
+              <li><a href="">André Carlos</a></li>
+              <li><a href="">Márcio Mello</a></li>
+              <li><a href="">João Pedro</a></li>
+              <li><a href="">Fernando Weiss</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="caixa">
+          <h2>News</h2>
+          <div class="caixa-conteudo">
+            <form>
+
+              <div>
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+              </div>
+              <div>
+                <input class="submit" type="submit" value="Cadastrar">
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+      <!-- Fim lateral -->
+
+    </div>
+    <!-- Fim do Conteudo -->
+
+  </div>
+  <!-- Fim do container -->
+
+  <div id="container-rodape" style="clear: both">
+    <div id="rodape">
+      &copy; Copyright 2000-2020 Notícias cidade
     </div>
   </div>
 
-
 </body>
+
 </html>

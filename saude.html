@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>Notícias cidade - Seu site de notícias</title>
 </head>
-<body class="saude">
+
+<body id="duas-colunas" class="saude">
+  <!-- Início do container -->
   <div id="container">
+    <!-- Início do Topo -->
     <div id=topo>
       <h1 class="logo">Notícias Cidade</h1>
 
@@ -21,10 +25,118 @@
         <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
         <li><a id="fotos" href="fotos.html">Fotos</a></li>
       </ul>
+    </div>
+    <!-- Fim do Topo -->
+    <!-- Início do Conteudo -->
+    <div id="conteudo">
+      <div id="primario">
+        <!-- Início destaque -->
+        <div class="caixa destaque">
+          <h2>Destaque</h2>
+          <div class="caixa-conteudo">
+            <img src="./imagens/doutor.jpg" alt="" width="100%" class="imagem-principal">
+            <p>
+              Coronavírus: Brasil registra 237 mortes em 24h e chega a 157.163 óbitos.
+            </p>
+            <a href="">Leia mais!</a>
+          </div>
+        </div>
+        <!-- Fim destaque -->
 
+        <!-- Início Mundo -->
+        <div class="caixa">
+          <h2>Mundo</h2>
+          <div class="caixa-conteudo">
+            <ul id="lista-noticias">
+              <li>
+                <a href="">
+                  <img src="./imagens/argentina.jpg" alt="" width="80">
+                  <h3>Argentina</h3>
+                  <p>Governo argentino publicará decreto para a volta dos turistas brasileiros a Buenos Aires.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="./imagens/corona.jpg" alt="" width="80">
+                  <h3>CoronaVírus</h3>
+                  <p>Coronavírus: Brasil registra mais 398 mortes e chega a 156.926 óbitos.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="./imagens/chile.jpg" alt="" width="80">
+                  <h3>Chile</h3>
+                  <p>Chile supera 500 mil casos confirmados de covid-19.</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./imagens/colombia.jpg" alt="" width="80">
+                  <h3>Colômbia</h3>
+                  <p>Colômbia se prepara para vacina no momento em que se aproxima de 1 milhão de casos de coronavírus.</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Fim mundo -->
+
+      </div>
+      
+
+      
+      <!-- Início lateral -->
+      <div id="lateral">
+        <div class="caixa">
+          <h2>Entrevistas</h2>
+          <div class="caixa-conteudo">
+            <ul>
+              <li><a href="">José Almeida</a></li>
+              <li><a href="">Felipe Silva</a></li>
+              <li><a href="">Renato Rodrigues</a></li>
+              <li><a href="">Abelardo Silveira</a></li>
+              <li><a href="">André Carlos</a></li>
+              <li><a href="">Márcio Mello</a></li>
+              <li><a href="">João Pedro</a></li>
+              <li><a href="">Fernando Weiss</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="caixa">
+          <h2>News</h2>
+          <div class="caixa-conteudo">
+            <form>
+
+              <div>
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+              </div>
+              <div>
+                <input class="submit" type="submit" value="Cadastrar">
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+      <!-- Fim lateral -->
+
+    </div>
+    <!-- Fim do Conteudo -->
+
+  </div>
+  <!-- Fim do container -->
+
+  <div id="container-rodape" style="clear: both">
+    <div id="rodape">
+      &copy; Copyright 2000-2020 Notícias cidade
     </div>
   </div>
 
-
 </body>
+
 </html>

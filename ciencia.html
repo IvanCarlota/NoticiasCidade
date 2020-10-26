@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>Notícias cidade - Seu site de notícias</title>
 </head>
-<body class="ciencia">
+
+<body id="uma-coluna" class="ciencia">
+  <!-- Início do container -->
   <div id="container">
+    <!-- Início do Topo -->
     <div id=topo>
       <h1 class="logo">Notícias Cidade</h1>
 
@@ -21,10 +25,79 @@
         <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
         <li><a id="fotos" href="fotos.html">Fotos</a></li>
       </ul>
+    </div>
+    <!-- Fim do Topo -->
+    <!-- Início do Conteudo -->
+    <div id="conteudo">
+      <div id="primario">
+        <!-- Início destaque -->
+        <div class="caixa destaque">
+          <h2>Destaque</h2>
+          <div class="caixa-conteudo">
+            <img src="./imagens/ciencia.jpg" alt="" width="100%" class="imagem-principal">
+            <p>
+              Recurso para ciência e tecnologia não é despesa, é investimento, defende ministro na CCT.
+            </p>
+            <a href="">Leia mais!</a>
+          </div>
+        </div>
+        <!-- Fim destaque -->
 
+        <!-- Início Mundo -->
+        <div class="caixa">
+          <h2>Mundo</h2>
+          <div class="caixa-conteudo">
+            <ul id="lista-noticias">
+              <li>
+                <a href="">
+                  <img src="./imagens/senado.jpg" alt="" width="80">
+                  <h3>Corte</h3>
+                  <p>
+                    Senado Federal e Corte de verbas para ciência, tecnologia e inovação prejudica o país.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="./imagens/corona.jpg" alt="" width="80">
+                  <h3>CoronaVírus</h3>
+                  <p>Brasil estuda possibilidade de implantar mais de 2 vacinas até 2021.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="./imagens/chile.jpg" alt="" width="80">
+                  <h3>Saúde</h3>
+                  <p>Instituto butantã produzirá vacina com tecnologia chinesa.</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./imagens/colombia.jpg" alt="" width="80">
+                  <h3>Oxford</h3>
+                  <p>Análise mostra que vacina de Oxford com AstraZeneca faz o que promete.</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Fim mundo -->
+
+      </div>
+
+    </div>
+    <!-- Fim do Conteudo -->
+
+  </div>
+  <!-- Fim do container -->
+
+  <div id="container-rodape" style="clear: both">
+    <div id="rodape">
+      &copy; Copyright 2000-2020 Notícias cidade
     </div>
   </div>
 
-
 </body>
+
 </html>

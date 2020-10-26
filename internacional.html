@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>Notícias cidade - Seu site de notícias</title>
 </head>
-<body class="internacional">
+
+<body id="duas-colunas" class="internacional">
+  <!-- Início do container -->
   <div id="container">
+    <!-- Início do Topo -->
     <div id=topo>
       <h1 class="logo">Notícias Cidade</h1>
 
@@ -21,10 +25,118 @@
         <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
         <li><a id="fotos" href="fotos.html">Fotos</a></li>
       </ul>
+    </div>
+    <!-- Fim do Topo -->
+    <!-- Início do Conteudo -->
+    <div id="conteudo">
+      <div id="primario">
+        <!-- Início destaque -->
+        <div class="caixa destaque">
+          <h2>Destaque</h2>
+          <div class="caixa-conteudo">
+            <img src="./imagens/donald-trump.jpg" alt="" width="100%" class="imagem-principal">
+            <p>
+              Eleições nos EUA: como Trump mudou o mundo.
+            </p>
+            <a href="">Leia mais!</a>
+          </div>
+        </div>
+        <!-- Fim destaque -->
 
+        <!-- Início Mundo -->
+        <div class="caixa">
+          <h2>Mundo</h2>
+          <div class="caixa-conteudo">
+            <ul id="lista-noticias">
+              <li>
+                <a href="">
+                  <img src="./imagens/havana.jpg" alt="" width="80">
+                  <h3>Little Havana</h3>
+                  <p>O ponto de encontro entre o 'Vai para Cuba' e o 'Vai para Miami' nos EUA.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="./imagens/politica.jpg" alt="" width="80">
+                  <h3>Política</h3>
+                  <p>Quase 60 milhões já votaram antecipadamente nos EUA a 8 dias das eleições.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="./imagens/vespas.png" alt="" width="80">
+                  <h3>Animal</h3>
+                  <p>Ninho de 'vespas assassinas' encontradas nos EUA é destruído por cientistas.</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./imagens/catalunha.jpg" alt="" width="80">
+                  <h3>Mundo</h3>
+                  <p>Catalunha estuda confinamento domiciliar de fim de semana.</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Fim mundo -->
+
+      </div>
+      
+
+      
+      <!-- Início lateral -->
+      <div id="lateral">
+        <div class="caixa">
+          <h2>Entrevistas</h2>
+          <div class="caixa-conteudo">
+            <ul>
+              <li><a href="">José Almeida</a></li>
+              <li><a href="">Felipe Silva</a></li>
+              <li><a href="">Renato Rodrigues</a></li>
+              <li><a href="">Abelardo Silveira</a></li>
+              <li><a href="">André Carlos</a></li>
+              <li><a href="">Márcio Mello</a></li>
+              <li><a href="">João Pedro</a></li>
+              <li><a href="">Fernando Weiss</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="caixa">
+          <h2>News</h2>
+          <div class="caixa-conteudo">
+            <form>
+
+              <div>
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+              </div>
+              <div>
+                <input class="submit" type="submit" value="Cadastrar">
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+      <!-- Fim lateral -->
+
+    </div>
+    <!-- Fim do Conteudo -->
+
+  </div>
+  <!-- Fim do container -->
+
+  <div id="container-rodape" style="clear: both">
+    <div id="rodape">
+      &copy; Copyright 2000-2020 Notícias cidade
     </div>
   </div>
 
-
 </body>
+
 </html>
